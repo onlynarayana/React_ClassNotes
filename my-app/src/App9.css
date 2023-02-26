@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(173, 234, 234);
+}
+
+input {
+  margin: 10px;
+}
+
+
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .hole {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+  }
+  

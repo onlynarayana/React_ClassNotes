@@ -1,0 +1,8 @@
+.main {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: blueviolet;
+    /* flex: 1; */
+    flex-basis: 75%;
+}

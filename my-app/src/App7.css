@@ -1,0 +1,16 @@
+.App7 {
+    border: 2px solid red;
+    padding: 1rem;
+}
+.componentA {
+    border: 2px solid green;
+    padding: 1rem;
+}
+.componentB {
+    border: 2px solid cyan;
+    padding: 1rem;
+}
+.componentC {
+    border: 2px solid sienna;
+    padding: 1rem;
+}

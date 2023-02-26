@@ -1,0 +1,138 @@
+/* .users {
+    display: flex;
+    align-items: center;
+    border: 2px solid goldenrod;
+}
+
+.btn {
+    all: unset;
+    background-color: brown;
+    color: beige;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-right: 5px;
+}
+.link {
+    letter-spacing: 2px;
+}
+
+.success {
+    background-color: green;
+}
+.big {
+    font-size: 3rem;
+}
+.white {
+    color: white;
+}
+.decorate {
+    text-decoration: line-through;
+} */
+
+
+/* CSS for App6 */
+main {
+    min-height: 100vh;
+    background-color: #DEF5E5;
+    display: grid;
+    place-items: center;
+}
+section {
+    background-color: #BCEAD5;
+    padding: 2rem;
+}
+input {
+    all: unset;
+    border-bottom: 1px solid #3A8891;
+    margin-right: 20px;
+}
+button {
+    all: unset;
+    background-color: #4FA095;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+h3 {
+    margin-bottom: 0;
+}
+ul {
+    margin-bottom: 0;
+}
+p {
+    margin-bottom: 0;
+}
+
+/*  CSS for Loader */
+
+.loader {
+    transform: rotateZ(45deg);
+    perspective: 1000px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+  }
+    .loader:before,
+    .loader:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: inherit;
+      height: inherit;
+      border-radius: 50%;
+      transform: rotateX(70deg);
+      animation: 1s spin linear infinite;
+    }
+    .loader:after {
+      color: #FF3D00;
+      transform: rotateY(70deg);
+      animation-delay: .4s;
+    }
+
+  @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+  }
+
+  @keyframes rotateccw {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(-360deg);
+    }
+  }
+
+  @keyframes spin {
+    0%,
+    100% {
+      box-shadow: .2em 0px 0 0px currentcolor;
+    }
+    12% {
+      box-shadow: .2em .2em 0 0 currentcolor;
+    }
+    25% {
+      box-shadow: 0 .2em 0 0px currentcolor;
+    }
+    37% {
+      box-shadow: -.2em .2em 0 0 currentcolor;
+    }
+    50% {
+      box-shadow: -.2em 0 0 0 currentcolor;
+    }
+    62% {
+      box-shadow: -.2em -.2em 0 0 currentcolor;
+    }
+    75% {
+      box-shadow: 0px -.2em 0 0 currentcolor;
+    }
+    87% {
+      box-shadow: .2em -.2em 0 0 currentcolor;
+    }
+  }
